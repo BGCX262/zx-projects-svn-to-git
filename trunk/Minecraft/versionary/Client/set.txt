@@ -1,0 +1,19 @@
+[SetDownloader]
+AppVersion=1.0.0.32
+VersionToUse=1.5.2
+Identifier=ZX_Projects_SVN
+Keyprint=223400d74d080cd1f6b19f01f8efc99c
+ENUC=49
+Optimization=ALU
+
+[Files]
+MainEXEpath=MinecraftSP.exe
+ClientEXEpath=minecraftclient.exe
+ClientCFGPath=mcclient_ovr.cfg
+<<<<<<< .mine
+VersionPackPath=RetailBin_152_op_d5.alu
+ExtraFilePath=RetailBin_152_op_d5_ponies.alu
+=======
+VersionPackPath=RetailBin_152_op_d2.alu
+ExtraFilePath=RetailBin_151_op_c4_ponies.alu
+>>>>>>> .r53

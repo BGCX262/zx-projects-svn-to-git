@@ -1,0 +1,428 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Project Darryl - Patch Notes</title>
+
+<link rel="stylesheet" href="./darryl_resources/lightbox.css" type="text/css" media="screen">
+<script type="text/javascript" src="./darryl_resources/lightbox.js"></script><style type="text/css"></style>
+
+
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-language" content="en">
+<meta name="resource-type" content="document">
+<link rel="icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico" type="image/xicon">
+<style type="text/css">
+.networkLinks { font-family: Arial, Helvetica, sans-serif; font-size: 9px; color: #333;}
+.networkLinks a, .networkLinks a:link, .networkLinks a:visited, .networkLinks a:active { font-weight: bold; text-decoration:none; color: #666666; padding: 0 5px 0 5px; }
+.networkLinks a:hover { color: #888888;}
+td { font-size: 11px; font-family:arial,sans-serif; color: #000000; }
+img { border: 0px; }
+ .heading1 { font-size: 14px; font-weight: bold; }
+     .subtitblack {     font-family: Georgia, "Times New Roman", Times, serif;  font-size: 11px;        color: #333333; text-decoration: none;  }
+  h2 { font-size: 14px; font-weight: bold; margin: 0px; padding: 0px; }
+  h1 { color: #333;
+	font-size: 22px;
+font-family: arial,helvetica,verdana,sans-serif;	font-weight: normal;
+	display: block; margin: 0px; padding: 0px; }
+a:link, a:visited, a:active { color: #1A56A9; text-decoration: none; }  a:hover { color: #206BD3; text-decoration: underline; }
+code
+{
+white-space: pre;
+}
+
+td.gametd { background: transparent url(./darryl_resources/tdbg.png); }
+td.gametd:hover { background: transparent url(./darryl_resources/tdhover.png);  }
+
+td.nav { border: 1px solid #dde3e6; }
+td.nav:hover { background: #e9eff2; border: 1px solid #ccd2d5; }
+tr.nav { border: 1px solid #dde3e6; }
+tr.nav:hover { background: #e9eff2; border: 1px solid #ccd2d5; }
+
+tr.nav2 { border: 1px solid #e9eff2; }
+tr.nav2:hover { background: transparent url(./darryl_resources/hovbg.jpg); }
+div.author
+{
+color: #000000;
+font-family: verdana;
+font-size: 10px;
+margin-right=10%;
+text-align=right;
+}
+.scriptcode
+{
+color: #0084A5;   font: 11px arial;
+overflow:auto; width:300px;
+}
+.codeblock
+{
+border-style: solid;
+border-width: 1px;
+border-color: #0084A5;
+background-color: #FFFFFF;
+width: 98%;
+}
+.mark
+{
+color: #FF0000;
+}
+.information
+{
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+background-color: #E0E0E0;
+width: 100%;
+}
+.infotext
+{
+font-family: verdana;
+font-size: 10px;
+}
+.gvdata
+{
+border-style: solid;
+border-width: 2px;
+border-color: #000000;
+background-color: #FAFAFA;
+width: 100%;
+}
+.gvtext
+{
+font-family: verdana;
+font-size: 10px;
+}
+.redbold
+{
+font-family: verdana;
+font-size: 10px;
+font-weight: bold;
+color: #FF0000;
+}
+.boldtext
+{
+font-family: verdana;
+font-size: 10px;
+font-weight: bold;
+}
+code.a
+{
+font-size: 14px;
+font-weight: bold;
+}
+.header
+{
+text-align: left;
+font-family: verdana;
+font-size: 10px;
+font-weight: bold;
+width: 95%; padding: 5px; background: #dde3e6; border: 1px solid #cccccc;
+}
+
+.top-ientry-bar {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	height: 35px;
+	width: 100%;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana;
+	background: #DDDDEE url(https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/insite/darryl_resources/topbar2.gif) repeat-x left top;
+}
+.top-ientry-bar a {
+	margin: 0px;
+	padding: 7px 20px 11px 10px;
+	float: left;
+	color: #000000;
+	display: block;
+	text-decoration: none;
+}
+.top-ientry-bar a:hover {
+	margin: 0px;
+	padding: 7px 20px 11px 10px;
+	float: left;
+	color: #000000;
+	display: block;
+	text-decoration: none;
+	background: #F0EDBD url(https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/insite/darryl_resources/topbar2a.gif) repeat-x left top;
+}
+.top-ientry-bar a img {
+	margin: -5px 5px -6px 0px;
+	z-index: 2;
+}
+#ientry-bar-right {
+	float: right;
+}
+.ientry-bar-clear {
+	clear: both;
+}
+</style>
+
+<script type="text/javascript" src="./darryl_resources/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="./darryl_resources/ddaccordion.js"></script>
+<script type="text/javascript">
+
+ddaccordion.init({
+        headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+        contentclass: "categoryitems", //Shared CSS class name of contents group
+        collapseprev: true, //Collapse previous content (so only one open at any time)? true/false
+        defaultexpanded: [0], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+        animatedefault: false, //Should contents open by default be animated into view?
+        persiststate: true, //persist state of opened contents within browser session?
+        toggleclass: ["", "openheader"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+        togglehtml: ["prefix", "", ""], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+        animatespeed: "normal", //speed of animation: "fast", "normal", or "slow"
+        oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+                //do nothing
+        },
+        onopenclose:function(header, index, state, isclicked){ //custom code to run whenever a header is opened or closed
+                //do nothing
+        }
+})
+
+</script><style type="text/css">
+.categoryitems{display: none}
+</style>
+
+<style type="text/css">
+
+.arrowlistmenu{
+ /*width of accordion menu*/
+}
+
+.arrowlistmenu .menuheader{ /*CSS class for menu headers in general (expanding or not!)*/
+font: bold 14px Arial;
+color: white;
+background: black url(titlebar.png) repeat-x center left;
+margin-bottom: 0px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 0px; /*header text is indented 10px*/
+cursor: hand;
+cursor: pointer;
+}
+
+.arrowlistmenu .openheader{ /*CSS class to apply to expandable header when it's expanded*/
+background-image: url(titlebar-active.png);
+}
+
+.arrowlistmenu ul{ /*CSS for UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 1px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu ul li{
+padding-bottom: 0px; /*bottom spacing between menu items*/
+text-align: center;
+}
+
+.arrowlistmenu ul li a{
+color: #A70303;
+display: block;
+padding: 0px; margin: 0px;
+text-decoration: none;
+font-size: 90%;
+}
+
+.arrowlistmenu ul li a:visited{
+padding: 0px; margin: 0px;
+}
+
+.arrowlistmenu ul li a:hover{ /*hover state CSS*/
+padding: 0px; margin: 0px;
+}
+
+</style>
+
+
+</head>
+<body style="background: #C0C5C7; text-align: center; padding: 0px; margin: 0px;">
+
+<div id="overlay" style="display: none; position: absolute; top: 0px; left: 0px; z-index: 90; width: 100%;"><a><img src="./darryl_resources/loading.gif" id="loadingImage" style="position: absolute; z-index: 150;"></a></div>
+<div id="lightbox" style="display: none; position: absolute; z-index: 100;"><a><img id="lightboxImage"><img src="./darryl_resources/close.gif" id="closeButton" style="position: absolute; z-index: 200;"></a>
+<div id="lightboxDetails"><div id="lightboxCaption" style="display: none;"></div></div></div>
+
+<table align="center" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="background: transparent url(./darryl_resources/leftbg.png); width: 24px;">&nbsp;
+
+</td>
+<td>
+<table align="center" style="background: #dde3e6; width: 974px; border-right: 1px solid #8F9394; border-left: 1px solid #8F9394;" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="width: 100%; border-bottom: 1px solid #C8CDD0;">
+<a href="./index.php" title="Darryl Project"><img src="./darryl_resources/darryllongbanner.jpg" alt="Darryl Project"></a>
+</td>
+</tr>
+<tr><td style="width: 100%; border-bottom: 1px solid #ccd2d5;">
+
+<table cellpadding="0" cellspacing="0" style="width: 100%;">
+
+<td valign="top" style="text-align: center; width: 823px; padding-top: 10px; padding-bottom: 10px; background: #e9eff2;">
+
+<table align="center" style="width: 800px;" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td valign="top" style="width: 500px; padding-right: 10px; text-align: left;">
+
+<!-- =================== PATCHER NEWS STARTS HERE!! ====================== -->
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[13 May 2013]<b> - Launcher Update</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+Made the launcher detect whether or not there is internet connection before displaying notice to prevent APP_HANG.
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance%20/store/ProjectDarrylX/news/007-launcherupdate2.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[23 Apr 2013]<b> - Shops are being added</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+Shops are now being added into the starting town - Tarvos. <br />
+
+No longer will you need to fight barehanded!
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/006-startingshopsadded.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[18 Apr 2013]<b> - Launcher Update</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+We have completely redesigned the Launcher to the standard "online game" looking type of Launcher! <br />
+
+As the previous launcher had a window too small to see patch notes, that was certainly a problem needed to be resolved. <br />
+
+So we've done what we can and came up with an interface overhaul to the standard launcher interface. <br />
+
+Be sure to update the game!
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/005-newlauncher.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[17 Apr 2013]<b> - Intro Scene Complete!</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+The game's intro scene has finally been completed! <br />
+
+No longer will you have troubles going through the intro should you start a new game again. <br />
+
+We will also add a method to skip the intro in the upcoming updates.
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/004-startintrocomplete.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[15 Apr 2013]<b> - More Maps!</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+More maps have been added into the game for you to explore! <br />
+
+Be sure to update your game to be able to access the new maps!
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/003-yaynewmaps.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[13 Apr 2013]<b> - New Intro!</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+We have remade the crappy intro into something of much more detail and provides an actual storyline.
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/002-newintro.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<br>
+<table align="center" style="width: 100%; border: 1px solid #C8CDD0;" cellpadding="0" cellspacing="0"><tbody><tr>
+<td valign="center" style="text-align: left; background: #dde3e6; border: 1px solid #C8CDD0;  background: transparent url(./darryl_resources/topicbg.gif); width: 100%; padding: 5px;">
+<span class="heading1" style="color: #ffffff;">[10 Apr 2013]<b> - Project Start!</b></span>
+</td></tr>
+<tr><td style="border: 1px solid #C8CDD0; text-align: center; padding: 5px;"><img src="./darryl_resources/darrylupdatebanner.png" style="width: 310px;"></td></tr>
+<tr><td style="border: 1px solid #C8CDD0;"></td></tr>
+<tr><td align="center" style="width: 100%; text-align: left;">
+<table style="width: 100%;" cellpadding="0" cellspacing="0">
+<tbody><tr><td style="width: 100%;" colspan="2"><b>
+We have started work on Project Darryl! <br />
+
+This is an RPG Game based on the infamous character named "Darryl"!
+</b><br /><br /></td></tr>
+<tr><td style="width: 60%; border: 1px solid #C8CDD0;"><b>Patcher News</b></td>
+<td style="width: 15%; text-align: center; border: 1px solid #C8CDD0;"><a href="https://zx-projects.googlecode.com/svn/trunk/Silver%20Resonance/store/ProjectDarrylX/news/001-startproject.html" title="Link"><b>Content Link</b></a></td></tr>
+</tbody></table></td></tr></tbody></table>
+<br>
+
+<!-- =================== PATCHER NEWS ENDS HERE!! ====================== -->
+
+<br>
+﻿</td>
+﻿</td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+
+<table align="center" cellpadding="0" cellspacing="0" style="width: 976px; margin-top: 0px; margin-bottom: 0px;">
+<tbody><tr>
+<td valign="top" style="width: 100%; border: 1px solid #8F9394; border-top: 1px solid #666666;   border-top: 0px; background: #D4DADD; padding-top: 10px; padding-left: 150px; padding-right: 100px; padding-bottom: 10px; text-align: left; border-right: 0px solid #666666;">
+<div style="float: left; margin-right: 10px;">
+<img src="./darryl_resources/button.gif" alt="Silver Resonance Networks"></div>We are a community of people that discusses the topics of Anime, Manga, Games, Software and Hardware. Our main focuses are Anime and Games, but that doesn't stop us from creating content relating to Music, Technology and other various topics.
+<br><br>
+Copyright © 2013 <a>Silver Resonance Networks</a>. All rights reserved.
+</td></tr>
+</tbody></table>
+</td>
+<td style="background: transparent url(./darryl_resources/rightbg.png); width: 24px;">&nbsp;
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>

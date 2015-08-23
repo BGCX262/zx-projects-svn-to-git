@@ -1,0 +1,38 @@
+[Server]
+
+
+; SVN/Hosting Information
+
+; Name of the server
+ServerName=ZX Projects
+; Type of the server
+; Possible Values: Plain, SVN, GIT. Inputting other values will default to Plain.
+ServerType=SVN
+; Name of the server Hoster
+ServerHosting=GoogleCode
+; Original link of server Hoster
+ServerHost=code.google.com
+
+
+; Server Properties
+
+; Update Server in AXline format
+UpdateServer=\'self:
+; Alternate Update Server in AXline format
+AlternateServer=\'prop:null
+; Link to the update server
+OriginalLink=http://zx-projects.googlecode.com/svn/trunk/
+; Secure link to the update server
+SecureLink=https://zx-projects.googlecode.com/svn/trunk/
+; Subroot to parse after link
+Subroot=Altimit-Progs\Hunter\HunterNetwork\Broadband\
+; Alternate subroot to parse after link
+Subroot2=Altimit-Progs/Hunter/HunterNetwork/Broadband/
+
+
+; Storage
+
+; Determines where Bins are stored
+BinStorage=root
+; Determines where Data is stored
+DataStorage=data

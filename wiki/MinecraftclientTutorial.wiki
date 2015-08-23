@@ -1,0 +1,58 @@
+#summary Minecraft ZX Loader Tutorial
+#labels Phase-Deploy,Tutorial
+
+= Introduction =
+
+This tutorial will guide you through setting up and using the Minecraft ZX Loader.
+
+*Note: This guide is currently being written and may contain non-relevant information, please directly consult Yandols on the Silver Resonance Minecrafters Network for assistance.*
+
+_Tip: Click on the image thumbnails to enlarge it._
+
+----
+= Setting up the client =
+
+First thing you will need to do is to obtain the Minecraft ZX Loader. To do this, go to the *Downloads* section of the project site and look for the *latest version* of the program. The version number of the program is always followed by its name. As shown in the picture below:
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic1.PNG http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic1-thumb.PNG]
+
+As of the writing of this guide, the latest version of the ZX Loader is *2.0.2.6* so click on the highlighted link as shown above.
+
+Once you have clicked the link, it will take you to the download page for the file. This page will display information regarding the file you are about to download. In this case, a minor changelog is displayed in the pre-download information. Click on the blue link to download the program.
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic2.PNG http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic2-thumb.PNG]
+
+Once you have downloaded the file, you will want to move it to a folder where you want it to work _(For example a new folder named 'Minecraft')_ as shown in the picture below.
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic4.PNG http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic4-thumb.PNG]
+
+However, with just that 1 file, you are not done yet. You need to download another file which are called *Client Version Packs* or simply abbreviated as *CVP* files. CVP files have either the .RAR or the .ALU extension.
+
+To download a CVP, click on the link below. This will take you to a page to select the CVP you will want to download.
+
+[http://code.google.com/p/zx-projects/source/browse/trunk/Minecraft/versionary/Client/]
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic5.png http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic5-thumb.PNG]
+
+As of the writing of this guide, the latest CVP is *Retailbin_147_op_b6.alu* so you should download that by clicking on it. This will take you to the download page, if the download does not automatically start, click on *View raw file*.
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic6.png http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic6-thumb.png]
+
+Once you have finished downloading your CVP file. Move it to the same folder where you placed the program (minecraftclient.exe)
+
+[http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic8.png http://zx-projects.googlecode.com/svn/trunk/Minecraft/store/img/mct-pic8-thumb.png]
+
+You can now launch the Minecraft ZX Loader and it will display something.
+
+----
+= Configuring the client =
+
+
+
+----
+= Advanced Configuration =
+
+
+
+----
+= Troubleshooting =
